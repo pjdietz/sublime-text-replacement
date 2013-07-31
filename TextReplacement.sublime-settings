@@ -1,13 +1,18 @@
 {
     "recursive": true,
 
+    "max_iterations": 4,
+
     "configuration": "development",
 
-    "stings": {
+    "fields": {
         "{{NAME}}": "Molly",
         "{{URL}}": {
             "development": "dev.mysite.com",
             "production": "www.mysite.com"
-        }
+        },
+        "{{NESTED}}": "My website is {{URL}}",
+        "{{CIRCULAR}}": "{{INFINITE}}",
+        "{{INFINITE}}": "{{CIRCULAR}}"
     }
 }
