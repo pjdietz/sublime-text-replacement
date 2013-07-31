@@ -1,0 +1,13 @@
+{
+    "recursive": true,
+
+    "configuration": "development",
+
+    "stings": {
+        "{{NAME}}": "Molly",
+        "{{URL}}": {
+            "development": "dev.mysite.com",
+            "production": "www.mysite.com"
+        }
+    }
+}

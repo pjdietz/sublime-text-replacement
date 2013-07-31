@@ -1,0 +1,7 @@
+[
+   {
+        "id": "textreplacement",
+        "caption": "Replace Text",
+        "command": "text_replacement"
+    }
+]
