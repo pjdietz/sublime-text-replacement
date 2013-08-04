@@ -7,11 +7,11 @@
 
     "fields": {
         "{{NAME}}": "Molly",
-        "{{URL}}": {
+        "{{HOSTNAME}}": {
             "development": "dev.mysite.com",
             "production": "www.mysite.com"
         },
-        "{{NESTED}}": "My website is {{URL}}",
+        "{{NESTED}}": "My website is {{HOSTNAME}}",
         "{{CIRCULAR}}": "{{INFINITE}}",
         "{{INFINITE}}": "{{CIRCULAR}}"
     }
