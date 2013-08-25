@@ -1,4 +1,4 @@
 sublime-test-replacement
 ========================
 
-Merge text into a template
+This project is defunct. See [Merge Variables](https://github.com/pjdietz/sublime-merge-variables) instead.
